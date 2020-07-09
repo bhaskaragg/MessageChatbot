@@ -1,0 +1,219 @@
+.home-page-tabs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.home-page-tabs .nav-item {
+  display: flex;
+  flex-basis: 20%;
+}
+.home-page-tabs .nav-link {
+  padding: 10px 22px;
+  line-height: 1;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  color: #aaaaaa;
+}
+.home-page-tabs .nav-link.active {
+  background-color: #3b4499;
+  color: #fff;
+}
+
+.header-tab {
+  background-color: #222f3e !important;
+}
+
+.heading-title {
+  z-index: 1;
+  color: white;
+  padding-left: 20px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.0125em;
+  font-family: Roboto, sans-serif;
+}
+
+.header-toolbar {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header-nav {
+  height: 72px;
+  padding: 0 24px;
+  background: none;
+  font-size: 0.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex: 1 0 auto;
+}
+.header-nav-item {
+  color: rgb(170, 170, 170);
+  display: flex;
+  flex-direction: column;
+  font: 400 13.3333px Arial;
+  font-size: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  overflow: auto;
+}
+.p-top-16 {
+  padding-top: 16px;
+}
+.p-bottom-12 {
+  padding-bottom: 12px;
+}
+
+.header-bar {
+  padding: 8px 12px;
+}
+footer {
+  left: 0;
+  display: flex !important;
+  width: 100%;
+  align-items: flex-end;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1vh;
+  margin-top: 4px;
+  flex-grow: 1;
+}
+.footer-input-wrapper {
+  border: 1px solid #eebb25 !important;
+  margin-left: 1rem;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+input {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 0.009375em;
+  background-color: #fff !important;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.footer-input {
+  height: 50px !important;
+  margin-left: 1rem !important;
+  width: 100%;
+}
+.message-camera-icon {
+  padding: 12px;
+  margin-left: 1rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+.message-send {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-self: center;
+  align-items: center;
+  /* width: 26px;
+  height: 26px; */
+  line-height: 26px;
+  border-radius: 26px;
+  background-color: #eebb25;
+  border: 12px solid #eebb25;
+  padding: 0.01rem 0.15rem 0.1rem 0.3rem;
+}
+
+.main-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.App {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  grid-template-rows: auto 1fr auto;
+  background-image: url("https://jobs.vahan.co/static/media/chatBG_cropped_min.53ac0bc8.jpg");
+}
+
+.message-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.message-right .text-message {
+  padding: 0 1em !important;
+  background: #f9eab5;
+}
+
+.text-message {
+  font-size: 15px;
+  border-radius: 8px;
+  display: inline-block;
+  height: auto;
+  padding: 1rem;
+  position: relative;
+  width: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 1rem;
+}
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.message-left {
+  display: flex;
+  flex-direction: row;
+}
+.message-left .text-message {
+  padding: 0 1em !important;
+  background: #f0f3f6;
+}
+.internet-text {
+  font-size: 20px;
+  text-align: center;
+  flex-grow: 1;
+}
+.wrapper-offline {
+  width: auto;
+  height: 48px;
+  background-color: #eb4343;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.internet-btn {
+  background-color: rgb(238, 187, 37);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  width: 120px;
+  letter-spacing: 1.25px;
+  margin-right: 10px;
+}
